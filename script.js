@@ -5,11 +5,10 @@ do {
 
     if (i < 2 || i > 20) {
         alert("Ingrese un numero válido");
-    }else {
-    i = i - 2;
-    alert("La cuenta da " + i + " y si le resto 2 más...");
-}
-
+    } else {
+        i = i - 2;
+        alert("La cuenta da " + i + " y si le resto 2 más...");
+    }
 } while (i >= 2 && i <= 20) {
     alert("Llegamos a 0 :)");
 }
